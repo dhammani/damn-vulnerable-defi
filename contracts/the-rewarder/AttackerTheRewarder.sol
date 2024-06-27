@@ -7,7 +7,6 @@ import "../DamnValuableToken.sol";
 import "./FlashLoanerPool.sol";
 import "./TheRewarderPool.sol";
 import {RewardToken} from "./RewardToken.sol";
-import "hardhat/console.sol";
 
 contract AttackerTheRewarder is Owned {
     using Address for address;
